@@ -5,7 +5,7 @@ import Video from '../video/video.mp4'
 const Hero = () => {
   return (
     <section className='main-video'>
-        <video src={Video} autoPlay loop muted type='video/mp4'/>
+        <video src={Video} autoPlay loop muted type='video/mp4' />
     <div className=' text-white absolute w-[100%] h-[100%] top-0 flex'>
         <div className='max-w-[800px] mt-5 pt-20 w-full mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#00dfd4] font-bold p-2 text-2xl'>Piercen Hughes</p>
@@ -14,7 +14,7 @@ const Hero = () => {
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Always learning more</p>
                 <Typed
                 className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-                strings={['JS', 'React', 'Python', 'Postgres', 'Tailwindcss']}
+                strings={['JS', 'React', 'Python', 'Postgres', 'Tailwindcss', 'Flask', 'SQLScripting']}
                 typeSpeed={120}
                 backSpeed={140}
                 loop/>   

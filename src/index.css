@@ -4,11 +4,13 @@
 
 body {
   background-color: #000300;
+  font-family: sans-serif;
 }
 
 .main-video {
   width: 100%;
   height: 100vh;
+  
 }
 
 video {
