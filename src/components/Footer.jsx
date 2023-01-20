@@ -20,7 +20,7 @@ const Footer = () => {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10'>
                 <h1>General E-Commerce Site</h1>
                 <img className='scale-75 align-center' src={creditcardpic} alt="Screenshot credit card website" />
-                <p>Simple react site for a credit card company...................................................</p>
+                <p>Simple react site for a credit card company...............</p>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-md font-medium mt-7 mx-auto pb-0.5 mr-5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</button>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-md font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-md font-medium mt-7 mx-auto pb-0.5 mr-5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</button>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-md font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 mx-10'>
                 <h1>Pristine Cleaning</h1>
                 <img className='scale-100' src={pristinecleanpic} alt="Screenshot of pristinecleaningph.com" />
                 <p>This is my first website. It is a perfectly terrible mixture of HTML/CSS/JS.</p>

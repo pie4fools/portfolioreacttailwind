@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  overflow-x: hidden;
-}
-
 body {
   background-color: #000300;
   font-family: sans-serif;
