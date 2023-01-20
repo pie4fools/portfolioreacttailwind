@@ -20,21 +20,21 @@ const Footer = () => {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10'>
                 <h1>General E-Commerce Site</h1>
                 <img className='scale-75 align-center' src={creditcardpic} alt="Screenshot credit card website" />
-                <p>Simple react site for a credit card company...............</p>
-                <a href='https://master--beautiful-zuccutto-11d061.netlify.app/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 sm:mr-0 lg:mr-5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
+                <p>Simple react site for a credit card company. Styled components with a register/login ready to connect to backend.</p>
+                <a href='https://master--beautiful-zuccutto-11d061.netlify.app/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 sm:mr-0 lg:mr-2 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10'>
                 <h1>Twitter Backend</h1>
                 <p>Using Flask and Postgres, Use the front end for CRUD operations on the backend. Update a user profile with a new username/PW, view tweets, like a tweet, show who liked a tweet, find a user.</p>
-                <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 sm:mr-0 lg:mr-5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</button>
+                <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 sm:mr-0 lg:mr-2 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</button>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
-            <div className='sm:mb-0 text-center shadow-lg p-10 rounded-xl lg:my-10 mx-10'>
+            <div className='sm:mb-0 text-center shadow-lg p-14 rounded-xl lg:my-10 mx-10'>
                 <h1 className='mb-4'>Pristine Cleaning</h1>
                 <img className='scale-100 mb-6' src={pristinecleanpic} alt="Screenshot of pristinecleaningph.com" />
                 <p>This is my first website completed for a client. This is a simple project using HTML/CSS and minimal JS.</p>
-                <a href='http://www.pristinecleaningph.com/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 sm:mr-0 lg:mr-5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
+                <a href='http://www.pristinecleaningph.com/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 text-white sm:mr-0 lg:mr-2 hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
         </div>
