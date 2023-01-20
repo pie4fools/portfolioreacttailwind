@@ -19,7 +19,7 @@ const Hero = () => {
                 backSpeed={140}
                 loop/>   
             </div>
-            <button className='bg-[#00dfd4] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-black z-10 hover:bg-white focus:ring focus:ring-white-300'>Projects</button>
+            <button onclick="location.href='https://google.com';" className='bg-[#00dfd4] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-black z-10 hover:bg-white focus:ring focus:ring-white-300'>Projects</button>
         </div>
     </div>
     </section>
