@@ -5,7 +5,7 @@ import { SiJavascript, SiTailwindcss, SiPython, SiPostgresql, SiCss3, SiReact, S
 
 const Aboutpage = () => {
     return (
-    <div className=''>
+    <div>
         <div className='text-white max-w-[800px] mt-5 pt-20 w-full mx-auto text-center flex flex-col justify-center'>
             <h1 className='text-[#00dfd4] md:text-5xl sm:text-4xl text-xl font-bold py-4'>About</h1>
             <p className='text-gray-300 md:text-3xl sm:text-1xl py-4'>Hello my name is Pierce. I have been learning and coding websites for the last year during my free time. The daily challenges and learning experiences have made me want to turn this into a career. I reside in Troy Texas</p>
