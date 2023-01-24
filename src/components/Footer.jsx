@@ -6,9 +6,6 @@ import creditcardpic from '../pics/creditcardpic.jpg'
 const Footer = () => {
   return (
     <div className='bg-gray-100'>
-        <div>
-            <h1 className='text-[#000000] text-center md:text-5xl sm:text-4xl text-xl font-bold py-8 font-serif hover:scale-150 transition-all ease-in'>Projects</h1>
-        </div>
         <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10 align-center'>
                 <h1>ChatGPT Clone</h1>
