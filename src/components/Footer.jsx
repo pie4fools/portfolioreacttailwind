@@ -11,7 +11,7 @@ const Footer = () => {
                 <h1>ChatGPT Clone</h1>
                 <img className='scale-75 align-center' src={chatgptpic} alt="Screenshot of ChatGPT Clone" />
                 <p>Using OpenAIAPI, send GET requests from the front end and listens for POST requests. The ChatGPT API replies with a post request to the frontend, where the content is displayed in text format.</p>
-                <a href='https://chatgptclone-lilac.vercel.app/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 lg:mr-5 sm:mr-0 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
+                <a href='https://chatgptclone-lilac.vercel.app/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 lg:mr-2 sm:mr-0 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10'>

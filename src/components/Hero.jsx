@@ -1,6 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed'
 import Video from '../video/video.mp4'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -19,7 +20,16 @@ const Hero = () => {
                 backSpeed={140}
                 loop/>   
             </div>
-            <button onclick="location.href='https://google.com';" className='bg-[#00dfd4] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-black z-10 hover:bg-white focus:ring focus:ring-white-300'>Projects</button>
+            <Link
+            smooth={true}
+            offset={1400}
+            duration={1000}
+            spy={true}
+            to="Footer"
+            className="cursor-pointer"
+          >
+            <button id="Footer" className='bg-[#00dfd4] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-black z-10 hover:bg-white focus:ring focus:ring-white-300'>Projects</button>
+          </Link>
         </div>
     </div>
     </section>
