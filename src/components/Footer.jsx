@@ -2,6 +2,7 @@ import React from 'react'
 import chatgptpic from '../pics/chatgptpic.jpg'
 import pristinecleanpic from '../pics/pristinecleanpic.jpg'
 import creditcardpic from '../pics/creditcardpic.jpg'
+import dictionaryapi from '../pics/dictionaryapi.jpg'
 
 const Footer = () => {
   return (
@@ -22,9 +23,10 @@ const Footer = () => {
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 mx-10'>
-                <h1>Twitter Backend</h1>
-                <p>Using Flask and Postgres, Use the front end for CRUD operations on the backend. Update a user profile with a new username/PW, view tweets, like a tweet, show who liked a tweet, find a user.</p>
-                <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 sm:mr-0 lg:mr-2 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</button>
+                <h1>Dictionary API</h1>
+                <img className='scale-75 align-center' src={dictionaryapi} alt="Screenshot of dictionary site" />
+                <p>Searches for a word in the dictionaryapi.dev API and displays the results on the page. Sets audio source attribute with a pronunciation of the word from the API</p>
+                <a href='https://master--chipper-salmiakki-0518f5.netlify.app/' target='_blank' rel='noreferrer' className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto py-2.5 px-6 sm:mr-0 lg:mr-2 text-white hover:bg-black focus:ring focus:ring-grey-300'>Visit</a>
                 <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-full font-medium mt-7 mx-auto pb-0.5 text-white hover:bg-black focus:ring focus:ring-grey-300'>Source</button>
             </div>
             <div className='sm:mb-0 text-center shadow-lg p-10 rounded-xl lg:my-10 mx-10'>
