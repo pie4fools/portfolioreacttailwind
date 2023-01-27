@@ -8,15 +8,14 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white z-10'>
         <h1 className='w-full text-3xl font-bold text-[#00dfd4]'>PH</h1>
         <ul className='flex'>
-            <button className='bg-[#00dfd4] w-[90px] h-[37.5px] rounded-md font-medium mt-7 mx-auto py-0.5 z-10 text-black hover:bg-white focus:ring focus:ring-white-300'>Resume</button>
-            
+            <button className='bg-[#00dfd4] w-[80px] h-[35.5px] rounded-md font-medium mt-7 mx-auto py-0.5 z-10 text-black hover:bg-white focus:ring focus:ring-white-300'>Resume</button>
             <div className="z-10">
             <a
             href="https://www.linkedin.com/in/piercen-hughes-617044188/"
             target="_blank"
             rel="noopener noreferrer"
             >
-            <AiFillLinkedin size={50} className='cursor-pointer hover:animate-pulse my-6 mx-auto w-[70px] pb-0.5 pl-6 z-10'/>
+            <AiFillLinkedin size={45} className='cursor-pointer hover:animate-pulse my-6 mx-auto w-[70px] pb-0.5 pl-6 z-10'/>
             </a>
         </div>
             <div className="z-10">
@@ -25,7 +24,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             >
-            <SiGithub size={50} className="cursor-pointer hover:animate-pulse my-6 mx-auto w-[60px] pb-0.5 pl-6 z-10" />
+            <SiGithub size={45} className="cursor-pointer hover:animate-pulse my-6 mx-auto w-[60px] pb-0.5 pl-6 z-10" />
             </a>
         </div>
         </ul>
