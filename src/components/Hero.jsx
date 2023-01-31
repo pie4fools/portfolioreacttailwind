@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
             <Link
             smooth={true}
-            offset={1400}
+            offset={1600}
             duration={1000}
             spy={true}
             to="Footer"

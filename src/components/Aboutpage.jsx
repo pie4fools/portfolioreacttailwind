@@ -6,7 +6,8 @@ import { motion } from 'framer-motion'
 
 const Aboutpage = () => {
     return (
-    <div>
+     <div>
+      <div>
         <motion.div
         initial={{
            x: -500,
@@ -32,8 +33,15 @@ const Aboutpage = () => {
             opacity: 1,
             scale: 1
         }}
+        drag
+        dragConstraints={{
+        top: -50,
+        left: -50,
+        right: 50,
+        bottom: 50,
+        }}
         className='grid gap-8 lg:flex justify-center pt-20 lg:space-x-15 lg:mt-5'>
-                <SiJavascript size={75} className="hover:text-yellow-300 hover:scale-150 transition-all ease-in"/>
+                <SiJavascript  size={75} className="hover:text-yellow-300 hover:scale-150 transition-all ease-in"/>
                 <SiTailwindcss size={75} className="hover:text-blue-600 hover:scale-150 transition-all ease-in"/>
                 <SiPython size={75} className="hover:text-blue-600 hover:scale-150 transition-all ease-in"/>
                 <SiPostgresql size={75} className="hover:text-blue-300 hover:scale-150 transition-all ease-in"/>
@@ -42,8 +50,9 @@ const Aboutpage = () => {
                 <SiFlask size={75} className="hover:scale-150 transition-all ease-in"/>
                 <SiGithub size={75} className="hover:text-orange-300 hover:scale-150 transition-all ease-in"/>
             </motion.div>
-            <img className='scale-50 rounded-full grayscale' src={headshot} alt="of face" />
+            <motion.img  className='scale-50 rounded-full grayscale' src={headshot} alt="of face" />
         </motion.div>
+    </div>
     </div>
   )
 }

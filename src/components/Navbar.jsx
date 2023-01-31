@@ -2,6 +2,7 @@ import React from 'react'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { SiGithub } from 'react-icons/si'
 import { motion } from 'framer-motion'
+import PiercenHResume from '../files/PiercenHResume 20232.pdf'
 
 
 const Navbar = () => {
@@ -26,8 +27,8 @@ const Navbar = () => {
         x: 0,
         opacity: 1,
     }}
-    transition={{ duration: 1.5 }} className='flex'>
-            <button className='bg-[#00dfd4] w-[80px] h-[34px] rounded-md font-medium mt-7 mx-auto py-0.5 z-10 text-black hover:bg-white focus:ring focus:ring-white-300'>Resume</button>
+    transition={{ duration: 1.5 }} className='flex '>
+            <a className='bg-[#00dfd4] w-[80px] h-[34px] rounded-md text-center font-medium mt-7 mx-auto py-1.5 z-10 text-black hover:bg-white focus:ring focus:ring-white-300 transition ease-in-out' href={PiercenHResume} target="_blank" rel="noreferrer">Resume</a>
             <div className="z-10">
             <a
             href="https://www.linkedin.com/in/piercen-hughes-617044188/"
