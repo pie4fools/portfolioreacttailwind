@@ -28,7 +28,7 @@ const Hero = () => {
             to="Footer"
             className="cursor-pointer"
           >
-            <button id="Footer" className='bg-[#00dfd4] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-black z-10 hover:bg-white focus:ring focus:ring-white-300'>Projects</button>
+            <button id="Footer" className='bg-[#00dfd4] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-black z-10 hover:bg-white focus:ring focus:ring-white-300 transition ease-in-out'>Projects</button>
           </Link>
         </div>
     </div>
