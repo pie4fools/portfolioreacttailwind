@@ -1,8 +1,7 @@
 import React from 'react'
 import headshot from '../images/headshot.jfif'
 import { SiJavascript, SiTailwindcss, SiPython, SiPostgresql, SiCss3, SiReact, SiFlask, SiGithub } from 'react-icons/si'
-import { motion, useInView, useAnimation } from 'framer-motion'
-import { useEffect } from 'react'
+import { motion } from 'framer-motion'
 
 const Aboutpage = () => {
     
