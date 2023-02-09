@@ -9,8 +9,8 @@ const Hero = () => {
         <video src={Video} autoPlay loop muted type='video/mp4' />
     <div className=' text-white absolute w-[100%] h-[100%] top-0 flex'>
         <div className='max-w-[800px] mt-5 pt-20 w-full mx-auto text-center flex flex-col justify-center'>
-            <p className='text-[#00dfd4] font-bold p-2 text-2xl'>Piercen Hughes</p>
-            <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Front End Developer</h1>
+            <p className='text-[#00dfd4] font-bold p-2 text-3xl'>Piercen Hughes</p>
+            <h1 className='md:text-7xl sm:text-6xl text-2xl font-bold md:py-6'>Front End Developer</h1>
             <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Always learning more</p>
                 <Typed
